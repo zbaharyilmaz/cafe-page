@@ -6,7 +6,7 @@ Welcome to **Cafebahz**, a beautifully designed, responsive coffee shop website 
 
 ### Website Demo
 
-![Cafebahz Demo](/assets/demo/cafebahz.gif)
+![Cafebahz Demo](/assets/demo/cafebahz.png)
 
 _Interactive demo showcasing the responsive design, smooth animations, and modern UI of Cafebahz website._
 
@@ -23,8 +23,8 @@ _Interactive demo showcasing the responsive design, smooth animations, and moder
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/zbaharyilmaz/nodejs-cafebahz.git
-   cd nodejs-cafebahz
+   git clone https://github.com/zbaharyilmaz/cafebahz-cafebahz.git
+   cd cafebahz-cafebahz
    ```
 
 2. **Install dependencies**:
