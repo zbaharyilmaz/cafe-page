@@ -1,4 +1,5 @@
-# ☕ Node.js Cafebahz 
+# ☕ Node.js Cafebahz
+
 ## Modern Coffee Shop Website
 
 Welcome to **Cafebahz**, a beautifully designed, responsive coffee shop website that brings the warmth and charm of a local café to the digital world!
