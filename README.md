@@ -1,4 +1,4 @@
-# ☕ Node.js Cafebahz
+# ☕ Cafebahz
 
 ## Modern Coffee Shop Website
 
@@ -23,8 +23,8 @@ _Interactive demo showcasing the responsive design, smooth animations, and moder
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/zbaharyilmaz/cafebahz-cafebahz.git
-   cd cafebahz-cafebahz
+   git clone https://github.com/zbaharyilmaz/cafebahz.git
+   cd cafebahz
    ```
 
 2. **Install dependencies**:
