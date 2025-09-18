@@ -1,0 +1,47 @@
+{
+  "name": "Cafebahz-website",
+  "version": "1.0.0",
+  "description": "Modern coffee shop website with responsive design and interactive features",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve . -p 5000",
+    "dev": "npx live-server --port=5000 --open=/",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "npx postcss assets/styles/style.css -o dist/styles/style.min.css",
+    "build:js": "npx terser assets/scripts/fslightbox.js -o dist/scripts/fslightbox.min.js",
+    "lint": "npx htmlhint index.html",
+    "format": "npx prettier --write .",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "coffee",
+    "website",
+    "responsive",
+    "bootstrap",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Cafebahz Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbaharyilmaz/cafe-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zbaharyilmaz/cafe-page/issues"
+  },
+  "homepage": "https://github.com/zbaharyilmaz/cafe-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^6.1.2",
+    "htmlhint": "^1.7.1",
+    "live-server": "^1.2.2",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "prettier": "^3.6.2",
+    "serve": "^14.2.5",
+    "terser": "^5.44.0"
+  }
+}
